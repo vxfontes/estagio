@@ -12,8 +12,6 @@ function adicionarVinho(vinho) {
     else if (vinho == 'branco') branco++;
     else if (vinho == 'tinto') tinto++;
     vinhos.push(vinho)
-
-    console.log(vinhos, rose, branco, tinto)
 }
 
 function verificar(event) {
@@ -34,6 +32,7 @@ function verificar(event) {
         adicionarVinho(opcaoSelecionada)
     } else {
         document.getElementById("info").innerHTML = 'Nenhuma opção selecionada';
+        document.getElementById("info").style.color = 'red';
     }
 }
 
@@ -57,7 +56,6 @@ function mostrandoVinhos() {
 }
 
 function calculoPorcentagem(total) {
-
     if (total !== 0) {
         porcRose = Math.round((rose / total * 100));
         porcBranco = Math.round((branco / total * 100))
@@ -76,6 +74,7 @@ function finalizando() {
         calculoPorcentagem(total);
     } else {
         document.getElementById("info").innerHTML = 'Nenhuma opção selecionada';
+        document.getElementById("info").style.color = 'red';
     }
 }
 
