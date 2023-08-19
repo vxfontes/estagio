@@ -1,5 +1,5 @@
-let vinhos = [];
-let branco = 0, rose = 0, tinto = 0
+vinhos = [];
+branco = 0, rose = 0, tinto = 0
 
 const formulario = document.getElementById('formVinho');
 const fimCadastro = document.getElementById('fim');
@@ -29,6 +29,7 @@ function verificar(event) {
 
     if (opcaoSelecionada) {
         document.getElementById("info").innerHTML = `Opção selecionada: ${opcaoSelecionada}`;
+        document.getElementById("info").style.color = 'blue';
         adicionarVinho(opcaoSelecionada)
     } else {
         document.getElementById("info").innerHTML = 'Nenhuma opção selecionada';
