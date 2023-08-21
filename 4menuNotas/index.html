@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu de notas</title>
+    <style>
+        body {
+            font: normal 20px Arial;
+            text-align: center;
+        }
+
+        button {
+            display: inline-block;
+            padding: 8px 20px;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #c62450;
+            transition: background-color 0.3s, color 0.3s;
+            margin: .1%;
+        }
+
+        button:hover {
+            background-color: #8d1835;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Controle de notas</h1>
+    <div>
+        <button id="nota2">Adicionar duas notas</button>
+        <button id="nota3">Adicionar três notas</button>
+        <button id="nota4">Adicionar quatro notas</button>
+    </div>
+
+    <br>
+
+    <form id="formNota" hidden>
+        <hr>
+        <h3>Informe as notas usando .</h3>
+        <br>
+        
+        <p id="media"></p>
+
+        <div>
+            <label for="valornota1">Nota 1</label><br>
+            <input type="text" id="valornota1" name="tipo"><br>
+            <label for="valornota2">Nota 2</label><br>
+            <input type="text" id="valornota2" name="tipo"><br>
+
+            <div id="atenota3" hidden>
+                <label for="valornota3">Nota 3</label><br>
+                <input type="text" id="valornota3" name="tipo"><br>
+            </div>
+
+            <div id="atenota4" hidden>
+                <label for="valornota4">Nota 4</label><br>
+                <input type="text" id="valornota4" name="tipo"><br>
+            </div>
+        </div>
+
+        <br>
+        <button type="submit">Cadastrar</button>
+    </form>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
