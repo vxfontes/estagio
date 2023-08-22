@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de cliente</title>
+    <style>
+        body {
+            font: normal 20px Arial;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Cadastro de cliente</h1>
+
+    <div id="mensagens"></div>
+
+    <form id="formCliente">
+        <div>
+            <label for="nome">Nome completo do cliente:</label><br>
+            <input type="text" id="nome" name="nome">
+        </div>
+
+        <div>
+            <label for="dataNascimento">Data de nascimento:</label><br>
+            <input type="date" id="dataNascimento" name="dataNascimento">
+        </div>
+
+        <div>
+            <label for="cpf">CPF:</label><br>
+            <input type="text" id="cpf" name="cpf" inputmode="numeric" placeholder="000.000.000-00" maxlength="11">
+        </div>
+
+        <div>
+            <label for="origem">Origem:</label><br>
+            <select id="origem" name="origem">
+                <option value="loja">Loja</option>
+                <option value="site">Site</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="score">Score:</label><br>
+            <input type="number" id="score" name="score" min="0">
+        </div>
+
+        <div>
+            <button type="submit">Cadastrar</button>
+        </div>
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
