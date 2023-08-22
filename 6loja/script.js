@@ -16,7 +16,7 @@ function finalizando(event) {
     if (validarCampos(nome, dataNascimento, cpf, origem, score)) {
 
         mensagemErroSucess.textContent = `Cliente ${nome} cadastrado com sucesso`;
-        mensagemErroSucess.style.color = 'blue';
+        mensagemErroSucess.style.color = '#634d91';
 
         mensagens.appendChild(mensagemErroSucess);
         
