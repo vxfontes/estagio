@@ -51,28 +51,46 @@ function validarCampos(nome, valor, categoria) {
 }
 
 function exibindoProduto(produto) {
+    let valorPrimeiroDigito = parseInt(produto.valor.toString()[0]);
+
+    let imagemSrc = "";
+    if (valorPrimeiroDigito % 2 === 0) imagemSrc = "./assets/produto1.png";
+    else imagemSrc = "./assets/produto2.png";
+
     const cardDiv = document.createElement('div');
-        cardDiv.classList.add('col');
-        cardDiv.innerHTML = `
-            <div class="card" style='width: 100%'>
-                <img src="./produto.png" class="card-img-top" alt="foto do produto" width="200px">
-                <div class="card-body">
-                    <h5 class="card-title">${produto.nome}</h5>
-                    <p class="card-text">Valor: R$${produto.valor}</p>
-                    <div style="display: flex">
-                        <p class="chip">${produto.categoria}</p>
+    cardDiv.classList.add('col');
+    cardDiv.innerHTML = `
+        <div class="card" style="width: 100%;">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="${imagemSrc}" class="card-img rounded-circle m-4" alt="foto do produto">
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-7 mt-1">
+                    <div class="card-body">
+                        <div>
+                            <h5 class="card-title">${produto.nome}</h5>
+                            <p class="card-text">Valor: R$${produto.valor}</p>
+                        </div>
+                        <hr>
+                        <div class="align-self-end">
+                            <div style="display: flex">
+                                <p class="chip">${produto.categoria}</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
         `;
-        produtosContainer.appendChild(cardDiv);
+    produtosContainer.appendChild(cardDiv);
 }
 
 function renderizarProdutos(filtroCategoria) {
     produtosContainer.innerHTML = '';
 
     produtos.forEach(produto => {
-        if(filtroCategoria === 'all') {
+        if (filtroCategoria === 'all') {
             exibindoProduto(produto)
         } else if (filtroCategoria === '' || produto.categoria === filtroCategoria) {
             exibindoProduto(produto)
