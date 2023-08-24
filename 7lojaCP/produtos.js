@@ -37,6 +37,7 @@ function salvandoProduto(event) {
         produtos.push(produto);
         localStorage.setItem('produtos', JSON.stringify(produtos));
         formProduto.reset();
+        categoriasEscolhidas.slice(0, 0)
     } else {
         mensagemErroSucess.textContent = 'Por favor, preencha todos os campos e adicione categorias antes de enviar.';
         mensagemErroSucess.style.color = 'red';
