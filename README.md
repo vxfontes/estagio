@@ -4,7 +4,7 @@
   &#xa0;
 </div>
 
-<h1 align="center">Estagio</h1>
+<h1 align="center">Estagio QQTech</h1>
 
 <p align="center">
   <img alt="My message" src="https://img.shields.io/badge/em%20uma%20nova%20fase-8A2BE2">
