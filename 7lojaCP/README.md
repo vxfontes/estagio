@@ -11,7 +11,8 @@ Cliente
     - Origem (se o cadastro é de origem da Loja ou Site)
     - Score (pontuação de crédito do cliente, quanto mais alto maior é a chance de crédito)
 
-produtos - Além do cadastro, a solução deve permitir que seja realizada uma consulta de produto por categoria. 
+Produtos - Além do cadastro, a solução deve permitir que seja realizada uma consulta de produto por categoria. 
+
     - Nome
     - Valor
     - Categoria
