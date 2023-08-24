@@ -25,15 +25,9 @@
 
 <hr>
 
-<p align="center">
-  <a href="#dart-about">Sobre</a> &#xa0; | &#xa0; 
-  <a href="#rocket-technologies">Tecnologias</a> &#xa0; | &#xa0;
-  <a href="https://github.com/vxfontes" target="_blank">Autora</a>
-</p>
-
 <br>
 
-## :dart: About ##
+## :dart: Sobre ##
 
 Arquivando atividades desenvolvidas durante o estágio
 
@@ -47,11 +41,16 @@ Teremos 5 módulos principais de desenvolvimento
 
 * Obs: cada um será incluso em uma branch distinta para melhor organização
 
-## :rocket: Technologies ##
+## :rocket: Tecnologias ##
 
 :heavy_check_mark: HTML;\
 :heavy_check_mark: CSS;\
-:heavy_check_mark: Javascript;
+:heavy_check_mark: Javascript;\
+:heavy_check_mark: Typescript;\
+:heavy_check_mark: Bootstrap;\
+:heavy_check_mark: NodeJS;\
+:heavy_check_mark: Python;\
+:heavy_check_mark: Pandas;
 
 
 
