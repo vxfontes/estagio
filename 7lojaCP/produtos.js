@@ -60,7 +60,7 @@ function exibindoProduto(produto) {
     const cardDiv = document.createElement('div');
     cardDiv.classList.add('col');
     cardDiv.innerHTML = `
-        <div class="card" style="width: 100%;">
+        <div class="card" style="width: 100%; box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);">
             <div class="row no-gutters">
                 <div class="col-md-4">
                     <img src="${imagemSrc}" class="card-img rounded-circle m-4" alt="foto do produto">
