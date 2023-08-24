@@ -54,12 +54,14 @@ function exibindoProduto(produto) {
     const cardDiv = document.createElement('div');
         cardDiv.classList.add('col');
         cardDiv.innerHTML = `
-            <div class="card">
+            <div class="card" style='width: 100%'>
                 <img src="./produto.png" class="card-img-top" alt="foto do produto" width="200px">
                 <div class="card-body">
                     <h5 class="card-title">${produto.nome}</h5>
-                    <p class="card-text">Valor: R$ ${produto.valor}</p>
-                    <p class="card-text">Categoria: ${produto.categoria}</p>
+                    <p class="card-text">Valor: R$${produto.valor}</p>
+                    <div style="display: flex">
+                        <p class="chip">${produto.categoria}</p>
+                    </div>
                 </div>
             </div>
         `;
