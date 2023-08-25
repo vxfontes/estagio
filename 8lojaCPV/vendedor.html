@@ -87,7 +87,10 @@
             <div class="row gap-4">
 
                 <div class="col">
-                    <div class="text-start bg-light m-0 px-3 rounded-3 py-4">
+                    <div class="text-start bg-light m-0 px-3 rounded-3 pb-4 pt-2" style="box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);">
+
+                        <div id="mensagens" class="my-3"></div>
+
                         <form id="formVendedor">
                             <div class="mb-3">
                                 <label for="nome" class="form-label">Nome completo:</label>
@@ -100,7 +103,6 @@
                             </div>
 
                             <div class="text-end pt-2">
-                                <button class="btn btn-secondary">Limpar</button>
                                 <button type="submit" class="btn"
                                     style="background-color: #a786df; color:white">Cadastrar</button>
                             </div>
@@ -109,24 +111,8 @@
                 </div>
 
                 <div class="col">
-                    <input class="form-control mb-4" type="text" name="search" id="search">
-                    <div class="col mx-4 mt-3">
-                        <div class="card" style="width: 100%; box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);">
-                            <div class="row no-gutters">
-                                <div class="col-md-2"><img
-                                        src="https://icones.pro/wp-content/uploads/2021/02/icone-utilisateur-gris.png"
-                                        class="card-img rounded-circle m-4" alt="foto do produto"></div>
-                                <div class="col-md-8 mt-1 m-3">
-                                    <div class="card-body text-start">
-                                        <div>
-                                            <h5 class="card-title">NomeCompleto asdasd</h5>
-                                            <p class="card-text">Matrícula: R$${produto.valor}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <input class="form-control mb-4" type="text" name="search" id="search" placeholder="Pesquisar...">
+                    <div id="vendedorContainer"></div>
                 </div>
             </div>
         </div>
