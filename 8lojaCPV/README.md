@@ -16,3 +16,8 @@ Produtos - Além do cadastro, a solução deve permitir que seja realizada uma c
     - Nome
     - Valor
     - Categoria
+
+Venderor
+
+    - Nome
+    - Matrícula
