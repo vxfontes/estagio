@@ -17,7 +17,7 @@ Produtos - Além do cadastro, a solução deve permitir que seja realizada uma c
     - Valor
     - Categoria
 
-Venderor
+Vendedor - Adição da opção de editar e remover
 
     - Nome
     - Matrícula

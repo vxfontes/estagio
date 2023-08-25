@@ -28,7 +28,7 @@ function salvandoVendedor(event) {
     }
 }
 
-function exibindoVendedor(vendedor) {
+function exibindoVendedor(vendedor, index) {
 
     const cardDiv = document.createElement('div');
     cardDiv.innerHTML = `
@@ -44,6 +44,10 @@ function exibindoVendedor(vendedor) {
                                 <h5 class="card-title">${vendedor.nome}</h5>
                                 <p class="card-text">Matrícula: ${vendedor.matricula}</p>
                             </div>
+                            <div class='mb-0'>
+                                <button class='btn btn-outline-danger mt-3' onclick='removerVendedor(${index})'>Excluir</button>
+                                <button class='btn btn-outline-primary mt-3' onclick='editarVendedor(${index})'>Editar</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -58,11 +62,11 @@ function renderizarVendedores(filtro) {
     vendedorContainer.innerHTML = '';
 
     if (filtro === 'none') {
-        vendedores.forEach(vendedor => exibindoVendedor(vendedor))
+        vendedores.forEach((vendedor, index) => exibindoVendedor(vendedor, index))
     } else {
-        vendedores.filter(vendedor => {
-            if(vendedor.nome.includes(filtro) || vendedor.matricula.includes(filtro)) {
-                exibindoVendedor(vendedor)
+        vendedores.filter((vendedor, index) => {
+            if (vendedor.nome.includes(filtro) || vendedor.matricula.includes(filtro)) {
+                exibindoVendedor(vendedor, index)
                 return true
             }
             return false
@@ -75,6 +79,50 @@ function validarCampos(nome, matricula) {
     return true;
 }
 
+function editarVendedor(index) {
+    const vendedor = vendedores[index];
+    const editForm = document.createElement('form');
+
+    editForm.innerHTML = `
+    <div class="mt-3">
+        <div class="card" style="width: 90%; margin-left:5%; box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);">
+            <div class="m-3">
+                <input type='text' id='editNome' value='${vendedor.nome}' class='form-control my-2'>
+                <input type='number' id='editMatricula' value='${vendedor.matricula}' class='form-control' min='0'>
+                <div>
+                    <button class='btn btn-sucess mt-2' onclick='salvarEdicao(${index})'>Salvar</button>
+                    <button class='btn btn-secondary mt-2' onclick='cancelarEdicao()'>Cancelar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    `;
+
+    vendedorContainer.replaceChild(editForm, vendedorContainer.children[index]);
+}
+
+function salvarEdicao(index) {
+    const nomeInput = document.getElementById("editNome").value;
+    const matriculaInput = document.getElementById("editMatricula").value;
+
+    if (validarCampos(nomeInput, matriculaInput)) {
+        vendedores[index].matricula = matriculaInput;
+        vendedores[index].nome = nomeInput;
+        localStorage.setItem('vendedores', JSON.stringify(vendedores));
+        renderizarVendedores('none');
+    } else {
+        alert('Preencha todos os campos corretamente!');
+    }
+}
+
+function removerVendedor(index) {
+    vendedores.splice(index, 1); // metodo para remover 1 elemento a partir da posição index
+    localStorage.setItem('vendedores', JSON.stringify(vendedores));
+    renderizarVendedores('none');
+}
+
+
+const cancelarEdicao = () => renderizarVendedores('none');
 formVendedor.addEventListener('submit', ((event) => {
     event.preventDefault();
     salvandoVendedor(event);
