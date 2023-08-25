@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,11 @@
     <style>
         * {
             font-family: 'Poppins', sans-serif;
+        }
+
+        .title {
+            margin: 30px 0 20px 0;
+            color: #4c5257;
         }
 
         .logo {
@@ -19,10 +25,18 @@
             border-radius: 200px;
         }
 
+        .content {
+            background-color: #fec7d7;
+            min-height: 88.1vh;
+            min-width: 100vw;
+            padding-left: 10%;
+            padding-right: 10%;
+            border-top: 6px solid #ae8be9b6;
+        }
+
         .alinhamento {
             margin-left: 120px;
         }
-
     </style>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,7 +54,8 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary" style="box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.342);">
         <div class="container-fluid align-text-center">
             <a class="logo" href="#">
-                <img src="./assets/icone.png" alt="Logo" width="80" height="80" class="d-inline-block align-text-center">
+                <img src="./assets/icone.png" alt="Logo" width="80" height="80"
+                    class="d-inline-block align-text-center">
             </a>
 
             <div class="collapse navbar-collapse align-text-center" id="navbarNav">
@@ -65,6 +80,59 @@
         </div>
     </nav>
 
+    <div class="content">
+
+        <div class="container text-center">
+            <h3 class="title text-start">Cadastrar clientes</h3>
+            <div class="row gap-4">
+
+                <div class="col">
+                    <div class="text-start bg-light m-0 px-3 rounded-3 py-4">
+                        <form id="formVendedor">
+                            <div class="mb-3">
+                                <label for="nome" class="form-label">Nome completo:</label>
+                                <input type="text" id="nome" name="nome" class="form-control">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="matricula" class="form-label">Matrícula:</label>
+                                <input type="number" id="matricula" name="matricula" class="form-control" min="0">
+                            </div>
+
+                            <div class="text-end pt-2">
+                                <button class="btn btn-secondary">Limpar</button>
+                                <button type="submit" class="btn"
+                                    style="background-color: #a786df; color:white">Cadastrar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <input class="form-control mb-4" type="text" name="search" id="search">
+                    <div class="col mx-4 mt-3">
+                        <div class="card" style="width: 100%; box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);">
+                            <div class="row no-gutters">
+                                <div class="col-md-2"><img
+                                        src="https://icones.pro/wp-content/uploads/2021/02/icone-utilisateur-gris.png"
+                                        class="card-img rounded-circle m-4" alt="foto do produto"></div>
+                                <div class="col-md-8 mt-1 m-3">
+                                    <div class="card-body text-start">
+                                        <div>
+                                            <h5 class="card-title">NomeCompleto asdasd</h5>
+                                            <p class="card-text">Matrícula: R$${produto.valor}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="./vendedor.js"></script>
 </body>
+
 </html>
