@@ -2,10 +2,10 @@ const formVendedor = document.getElementById('formVendedor');
 const mensagens = document.getElementById('mensagens');
 const mensagemErroSucess = document.createElement('h5');
 const search = document.getElementById('search');
-const reset = document.createElement('reset');
 const vendedorContainer = document.getElementById('vendedorContainer');
 
 const vendedores = JSON.parse(localStorage.getItem("vendedores")) || [];
+
 function salvandoVendedor(event) {
     const { nome, matricula } = event.target;
 
@@ -80,10 +80,7 @@ formVendedor.addEventListener('submit', ((event) => {
     salvandoVendedor(event);
     renderizarVendedores('none');
 }));
-document.addEventListener('DOMContentLoaded', () => {
-    renderizarVendedores('none');
-    console.log(vendedores);
-});
+document.addEventListener('DOMContentLoaded', () => renderizarVendedores('none'));
 search.addEventListener('input', () => {
     renderizarVendedores(search.value);
 });
