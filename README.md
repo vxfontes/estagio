@@ -47,5 +47,5 @@
 - Google Fonts
 - Axios
 - Openpyxl
-- flask
-- flask_cors
+- Flask
+- Flask_cors
