@@ -16,7 +16,7 @@ function getType() {
 }
 
 function enviandoValores(value) {
-    const host = 'http://10.130.171.129:3000';
+    const host = 'http://192.168.0.113:3000';
 
     axios.post(`${host}/getFile`, value)
         .then(response => {
