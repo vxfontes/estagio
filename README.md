@@ -9,7 +9,7 @@
 </h1>
 
 <p align="center">
-  <img alt="contagem de modulos" src="https://img.shields.io/badge/modulo_1-em_progresso-blue">
+  <img alt="contagem de modulos" src="https://img.shields.io/badge/modulo_1-finalizado-green">
 </p>
 
 <!-- Status -->
@@ -17,7 +17,7 @@
 <h4 align="center"> 
 	
 	Módulo 1
-	🚧  Estagio 🚀 Em desenvolvimento...  🚧
+	🔒 Introdução a programação 🚀 Finalizado  🔒
 </h4> 
 
 <hr>
@@ -32,13 +32,20 @@
 - Manipulação de DOM e elementos
 - Boas práticas em cada uma delas
 - Uso de bibliotecas para front
+- Integração com python para transporte de dados
 - Soft skill: Gestão de tempo, execício de criatividade, seguir requisitos
 
 ## :rocket: Tecnologias ##
 
 :heavy_check_mark: HTML;\
 :heavy_check_mark: CSS;\
-:heavy_check_mark: Javascript;
+:heavy_check_mark: Javascript;\
+:heavy_check_mark: Python;
 
-
-
+## :checkered_flag: Bibliotecas e ferramentas usadas ##
+- Bootstrap
+- Google Fonts
+- Axios
+- Openpyxl
+- flask
+- flask_cors
