@@ -1,6 +1,7 @@
 import openpyxl
-from flask import Flask, request, jsonify, send_file
+from flask import Flask, request, send_file
 from flask_cors import CORS
+import os
 
 # criar um servidor em python para que haja interação com o front
 app = Flask(__name__) ## inicializando servidor
@@ -15,7 +16,6 @@ def getData():
     file_path = generateExcel(data, name)
     
     response = send_file(file_path, as_attachment=True)
-    response.headers["Content-Disposition"] = f"attachment; filename={name}.xlsx"
     return response
 
 
@@ -23,19 +23,24 @@ def generateExcel(data, name):
     wb = openpyxl.Workbook()
     ws = wb.active
 
-    for item in data:
-        row_data = []
+    if name == 'vendedores':
+        ws.append(['nome', 'matricula'])
+        for item in data:
+            ws.append([item['nome'], item['matricula']])
+    elif name == 'produtos':
+        ws.append(['nome', 'categoria', 'valor'])
+        for item in data:
+            ws.append([item['nome'], ', '.join(item['categoria']), item['valor']])
+    elif name == 'clientes':
+        ws.append(['nome', 'cpf', 'dataNascimento', 'origem', 'score'])
+        for item in data:
+            ws.append([item['nome'], item['cpf'], item['dataNascimento'], item['origem'], item['score']])
 
-        if name == 'vendedores':
-            row_data = [item['matricula'], item['nome']]
-        elif name == 'produtos':
-            row_data = [', '.join(item['categoria']), item['nome'], item['valor']]
-        elif name == 'clientes':
-            row_data = [item['cpf'], item['dataNascimento'], item['nome'], item['origem'], item['score']]
-        
-        ws.append(row_data)
+    # cria a pasta arquivos se nao existir
+    if not os.path.exists('arquivos'):
+        os.makedirs('arquivos')
 
-    file_path = f"{name}.xlsx"
+    file_path = os.path.join('arquivos', f"{name}.xlsx")
     wb.save(file_path)
     return file_path
 
