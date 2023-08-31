@@ -27,7 +27,7 @@
 ## :dart: Sobre ##
 
 2 - Banco de dados
-- 
+- Criação de modelo entidade relacional
 
 ## :rocket: Tecnologias ##
 
@@ -35,4 +35,4 @@
 :heavy_check_mark: Postgres;
 
 ## :checkered_flag: Bibliotecas e ferramentas usadas ##
-- 
+- QuickDatabaseDiagrams
