@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Estagio" />
+  <img src="https://queroquero.hublocal.com.br/ugloavuw/2022/11/logo.png" alt="Estagio" />
 
   &#xa0;
 </div>
