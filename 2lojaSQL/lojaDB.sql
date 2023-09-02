@@ -1,8 +1,8 @@
 ﻿-- Tabela Cliente
 CREATE TABLE Cliente (
-    id INT PRIMARY KEY,
-    nome_completo VARCHAR(255),
-    data_nascimento DATE,
+    id SERIAL PRIMARY KEY,
+    nomeCompleto VARCHAR(255),
+    dataCascimento DATE,
     cpf VARCHAR(11),
     origem VARCHAR(50),
     score INT
@@ -10,35 +10,52 @@ CREATE TABLE Cliente (
 
 -- Tabela Categoria
 CREATE TABLE Categoria (
-    id INT PRIMARY KEY,
+    id SERIAL PRIMARY KEY,
     nome VARCHAR(50)
+);
+
+-- Tabela CategoriaProduto
+CREATE TABLE CategoriaProduto (
+    categoriaID INT,
+    produtoID INT,
+    PRIMARY KEY (categoriaID, produtoID),
+    FOREIGN KEY (categoriaID) REFERENCES Categoria(id),
+    FOREIGN KEY (produtoID) REFERENCES Produto(id)
 );
 
 -- Tabela Produto
 CREATE TABLE Produto (
-    id INT PRIMARY KEY,
+    id SERIAL PRIMARY KEY,
     nome VARCHAR(100),
     valor DECIMAL(10, 2),
-    categoria_id INT,
-    FOREIGN KEY (categoria_id) REFERENCES Categoria(id)
+    categoriaID INT,
+    FOREIGN KEY (categoriaID) REFERENCES Categoria(id)
 );
 
 -- Tabela Vendedor
 CREATE TABLE Vendedor (
-    id INT PRIMARY KEY,
+    id SERIAL PRIMARY KEY,
     nome VARCHAR(255),
     matricula VARCHAR(20)
 );
 
 -- Tabela Pedido
 CREATE TABLE Pedido (
-    id INT PRIMARY KEY,
-    cliente_id INT,
-    data_criacao DATE,
-    vendedor_id INT,
-    produto_id INT,
-    valor_produto DECIMAL(10, 2),
-    FOREIGN KEY (cliente_id) REFERENCES Cliente(id),
-    FOREIGN KEY (vendedor_id) REFERENCES Vendedor(id),
-    FOREIGN KEY (produto_id) REFERENCES Produto(id)
+    id SERIAL PRIMARY KEY,
+    clienteID INT,
+    dataCriacao DATE,
+    vendedorID INT,
+    produtoID INT,
+    valorProduto DECIMAL(10, 2),
+    FOREIGN KEY (clienteID) REFERENCES Cliente(id),
+    FOREIGN KEY (vendedorID) REFERENCES Vendedor(id),
+);
+
+-- Tabela ProdutoPedido
+CREATE TABLE ProdutoPedido (
+    pedidoID INT,
+    produtoID INT,
+    PRIMARY KEY (pedidoID, produtoID),
+    FOREIGN KEY (pedidoID) REFERENCES Pedido(id),
+    FOREIGN KEY (produtoID) REFERENCES Produto(id)
 );
