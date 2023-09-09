@@ -8,9 +8,9 @@
 
 <p align="center">
   <img alt="My message" src="https://img.shields.io/badge/em%20uma%20nova%20fase-8A2BE2">
-  <img alt="fase do projeto" src="https://img.shields.io/badge/projeto-1_protótipo-d9376e">
+  <img alt="fase do projeto" src="https://img.shields.io/badge/projeto-2_MER-d9376e">
 <br>
-  <img alt="contagem de modulos" src="https://img.shields.io/badge/modulo_1-concluído-green">
+  <img alt="contagem de modulos" src="https://img.shields.io/badge/modulo_1-finalizado-green">
   <img alt="contagem de modulos" src="https://img.shields.io/badge/modulo_2-em_progresso-blue">
   <img alt="contagem de modulos" src="https://img.shields.io/badge/modulo_3-não_iniciado-red">
   <img alt="contagem de modulos" src="https://img.shields.io/badge/modulo_4-não_iniciado-red">
