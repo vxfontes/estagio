@@ -27,7 +27,10 @@
 ## :dart: Sobre ##
 
 2 - Banco de dados
-- Criação de modelo entidade relacional
+- Criação de modelo entidade relacional~
+- Preenchendo tabela
+- Principais comandos
+- Algebra relacional
 
 ## :rocket: Tecnologias ##
 
