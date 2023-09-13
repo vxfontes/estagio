@@ -27,15 +27,21 @@
 ## :dart: Sobre ##
 
 2 - Banco de dados
-- Criação de modelo entidade relacional~
+- Criação de modelo entidade relacional
 - Preenchendo tabela
 - Principais comandos
 - Algebra relacional
+- Condições para requisições
 
 ## :rocket: Tecnologias ##
 
 :heavy_check_mark: SQL;\
 :heavy_check_mark: Postgres;
+
+## 💫 Alguns comandos ##
+- SELECT, FROM, SUM, AVG, MAX, MIN, COUNT, DESC, ASC
+- WHERE, BETWEEN, GROUP BY, ORDER BY
+- HAVING, CASE, CROSS JOIN, INNER JOIN (ON)
 
 ## :checkered_flag: Bibliotecas e ferramentas usadas ##
 - QuickDatabaseDiagrams
