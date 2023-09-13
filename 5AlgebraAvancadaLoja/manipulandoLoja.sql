@@ -33,3 +33,16 @@ from produtopedido p
 group by p.pedidoid 
 having sum(p.valortotal) > 8000 and count(p.produtoid) > 3
 order by valortotal desc
+
+
+--Selecionar o nome, cpf, score e medalha, a medalha é baseada no valor do
+--score, assim para medalha ouro o score deve ser acima de 80, prata entre 60 à
+--79 e bronze 0 a 59. Ordenar os clientes por medalha de bronze para ouro e nome
+select c.nomecompleto, c.cpf, c.score,
+case
+	when c.score > 80 then 'ouro'
+	when c.score between 60 and 79 then 'prata'
+	else 'bronze'
+end as medalha
+from cliente c 
+order by medalha asc, c.nomeCompleto;
