@@ -96,6 +96,6 @@ having c.score > 60
 
 --Selecionar a média dos pedidos realizados entre janeiro e maio de 2021
 select 
-	count(p.id)/5 as mediaPedidos 
+	avg(p.id) as mediaPedidos 
 from pedido p 
 where p.datacriacao >='2021-01-01' and p.datacriacao <= '2021-05-31'
