@@ -48,15 +48,16 @@ from cliente c
 order by medalha asc, c.nomeCompleto;
 
 
--- FALTA A 5
--- FALTA A 5
--- FALTA A 5
--- FALTA A 5
--- FALTA A 5
--- FALTA A 5
--- FALTA A 5
--- FALTA A 5
--- FALTA A 5
+--Selecionar as possibilidades de compras de produtos para os clientes Francis
+--Borba e Isis Cirne Veleda. Deve constar nome do cliente, cpf, score, nome do
+--produto e valor. Ordenar por nome de cliente
+select 
+	c.nomecompleto, c.cpf, c.score, p.nome as nomeproduto, p.valor 
+from cliente c
+cross join produto p 
+group by c.nomecompleto, c.cpf, c.score, p.nome, p.valor 
+having c.nomecompleto = 'Isis Cirne Veleda' or c.nomecompleto = 'Francis Ruas Borba'
+order by c.nomecompleto ASC
 
 
 --Selecionar o código do pedido, data dele, se teve vendedor (sim ou não) e
@@ -92,13 +93,9 @@ from cliente c
 group by c.nomecompleto, c.score, c.datanascimento 
 having c.score > 60
 
--- falta a ultima
--- falta a ultima
--- falta a ultima
--- falta a ultima
--- falta a ultima
--- falta a ultima
--- falta a ultima
--- falta a ultima
--- falta a ultima
--- falta a ultima
+
+--Selecionar a média dos pedidos realizados entre janeiro e maio de 2021
+select 
+	count(p.id)/5 as mediaPedidos 
+from pedido p 
+where p.datacriacao >='2021-01-01' and p.datacriacao <= '2021-05-31'
