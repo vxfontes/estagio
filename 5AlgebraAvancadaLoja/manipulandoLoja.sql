@@ -46,3 +46,59 @@ case
 end as medalha
 from cliente c 
 order by medalha asc, c.nomeCompleto;
+
+
+-- FALTA A 5
+-- FALTA A 5
+-- FALTA A 5
+-- FALTA A 5
+-- FALTA A 5
+-- FALTA A 5
+-- FALTA A 5
+-- FALTA A 5
+-- FALTA A 5
+
+
+--Selecionar o código do pedido, data dele, se teve vendedor (sim ou não) e
+--nome de seus produtos. Ordenar por código do pedido
+select 
+	p.id, p.datacriacao,
+	case 
+		when p.vendedorid > 0 then 'sim'
+		else 'não'
+	end as teveVendedor,
+	p3.nome 
+from pedido p 
+inner join produtopedido p2 on p.id = p2.pedidoid 
+inner join produto p3 on p2.produtoid = p3.id 
+order by p.id 
+
+
+--Selecionar o código dos pedidos, quantidade de produtos, dos pedidos
+--realizados em 2020
+select
+	p.pedidoid, count(p.produtoid), p2.datacriacao 
+from produtopedido p 
+inner join pedido p2 on p.pedidoid = p2.id
+group by p.pedidoid, p2.datacriacao 
+having extract(year from p2.datacriacao) = 2020
+order by p.pedidoid asc
+
+
+-- Selecionar o nome, score e mês de aniversário dos clientes com score acima de 60
+select 
+	c.nomecompleto, c.score, extract(month from c.datanascimento) as mesAniversario
+from cliente c 
+group by c.nomecompleto, c.score, c.datanascimento 
+having c.score > 60
+
+-- falta a ultima
+-- falta a ultima
+-- falta a ultima
+-- falta a ultima
+-- falta a ultima
+-- falta a ultima
+-- falta a ultima
+-- falta a ultima
+-- falta a ultima
+-- falta a ultima
