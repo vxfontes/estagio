@@ -293,9 +293,10 @@ df_inner = pd.merge(df,df_desc,how='inner',on='sku')
 
 
 
-
 # Exercícios propostos:
 # 
+# In[100]:
+
 # 1) Crie um dataframe conforme a seguinte tabela:
 # 
 # |produto|preco|
@@ -314,10 +315,16 @@ df = pd.DataFrame(data)
 
 print(df)
 
-# 
+# In[101]:
+
 # 2) Com o dataframe criado, ordene-o em ordem decrescente de preço.
+df = df.sort_values(by='preco', ascending=False)
+
+# In[101]:
 # 
 # 3) Adicione ao dataframe o produto "tapete" que tem valor 250.
+df = df.append({'produto': 'tapete', 'preco': 250})
+
 # 
 # 4) Filtre o dataframe para mostrar os produtos com preço menor que 100.
 # 
@@ -348,3 +355,5 @@ print(df)
 # |porta|450|9|
 # 
 # 8) Crie uma coluna no dataframe do exercício anterior que indique a receita total do produto, após isso, calcule a receita total de todos os produtos e crie uma nova coluna indicando qual a porcentagem de cada produto na receita total.
+
+# %%
