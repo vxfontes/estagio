@@ -9,7 +9,7 @@
 </h1>
 
 <p align="center">
-  <img alt="contagem de modulos" src="https://img.shields.io/badge/modulo_2-em progresso-blue">
+  <img alt="contagem de modulos" src="https://img.shields.io/badge/modulo_2-finalizado-green">
 </p>
 
 <!-- Status -->
@@ -17,7 +17,7 @@
 <h4 align="center"> 
 	
 	Módulo 2
-	🚧 Banco de dados 🚀 Em progresso...  🚧
+	🔒 Banco de dados 🚀 Finalizado 🔒
 </h4> 
 
 <hr>
@@ -32,10 +32,14 @@
 - Principais comandos
 - Algebra relacional
 - Condições para requisições
+- Relacionamentos entre tabelas
+- Joins e subqueries
+- Conectar banco com python
 
 ## :rocket: Tecnologias ##
 
 :heavy_check_mark: SQL;\
+:heavy_check_mark: Pandas;\
 :heavy_check_mark: Postgres;
 
 ## 💫 Alguns comandos ##
@@ -45,3 +49,4 @@
 
 ## :checkered_flag: Bibliotecas e ferramentas usadas ##
 - QuickDatabaseDiagrams
+- DBeaver
