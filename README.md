@@ -9,15 +9,15 @@
 </h1>
 
 <p align="center">
-  <img alt="contagem de modulos" src="https://img.shields.io/badge/modulo_2-finalizado-green">
+  <img alt="contagem de modulos" src="https://img.shields.io/badge/modulo_3-em_progresso-blue">
 </p>
 
 <!-- Status -->
 
 <h4 align="center"> 
 	
-	Módulo 2
-	🔒 Banco de dados 🚀 Finalizado 🔒
+	Módulo 3
+	🔒 HTML e CSS 🚀 Finalizado 🔒
 </h4> 
 
 <hr>
@@ -26,27 +26,15 @@
 
 ## :dart: Sobre ##
 
-2 - Banco de dados
-- Criação de modelo entidade relacional
-- Preenchendo tabela
-- Principais comandos
-- Algebra relacional
-- Condições para requisições
-- Relacionamentos entre tabelas
-- Joins e subqueries
-- Conectar banco com python
+3 - HTML e CSS
+- focado no projeto final
+- formulários
+- manipulação de dom
 
 ## :rocket: Tecnologias ##
 
-:heavy_check_mark: SQL;\
-:heavy_check_mark: Pandas;\
-:heavy_check_mark: Postgres;
-
-## 💫 Alguns comandos ##
-- SELECT, FROM, SUM, AVG, MAX, MIN, COUNT, DESC, ASC
-- WHERE, BETWEEN, GROUP BY, ORDER BY
-- HAVING, CASE, CROSS JOIN, INNER JOIN (ON)
+:heavy_check_mark: HTML;\
+:heavy_check_mark: CSS;
 
 ## :checkered_flag: Bibliotecas e ferramentas usadas ##
-- QuickDatabaseDiagrams
-- DBeaver
+- 

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            max-width: 50%;
+            margin: 5% auto;
+            padding: 2%;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        input,
+        select {
+            margin-bottom: 20px;
+            width: 98%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        select {
+            height: 40px;
+            width: 100%;
+        }
+
+        .btn {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Faça o cadastro na plataforma</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+
+            <label for="matricula">Matrícula:</label>
+            <input type="text" id="matricula" name="matricula">
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha">
+
+            <label for="confirmarSenha">Confirmar Senha:</label>
+            <input type="password" id="confirmarSenha" name="confirmarSenha">
+
+            <label for="perfil">Perfil:</label>
+            <select id="perfil" name="perfil">
+                <option value="time">Time</option>
+                <option value="gerente">Gerente</option>
+                <option value="gestor">Gestor</option>
+            </select>
+
+            <button type="submit" class="btn">Enviar</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
