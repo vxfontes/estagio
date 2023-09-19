@@ -320,18 +320,30 @@ print(df)
 # 2) Com o dataframe criado, ordene-o em ordem decrescente de preço.
 df = df.sort_values(by='preco', ascending=False)
 
-# In[101]:
+# In[102]:
 # 
 # 3) Adicione ao dataframe o produto "tapete" que tem valor 250.
-df = df.append({'produto': 'tapete', 'preco': 250})
+df.loc[0] = {'produto': 'tapete', 'preco': 250}
+print(df)
 
-# 
+# In[103]:
 # 4) Filtre o dataframe para mostrar os produtos com preço menor que 100.
-# 
+dfMenorQueCem = df[df['preco'] < 100]
+print(dfMenorQueCem)
+
+# In[104]:
 # 5) Salve o dataframe original em um arquivo csv
-# 
+df.to_csv("base.csv", index=False)
+
+
+# In[105]:
 # 6) Use o pd.read_csv para ler o dataframe salvo anteriormente e adicione a esse dataframe uma coluna "vendas" que representa a quantidade vendida (inicialmente nenhum produto vendido, então o valor será 0 para todas as linhas).
-# 
+df = pd.read_csv("base.csv")
+df['vendas'] = 0
+print(df)
+
+
+# In[106]:
 # 7) Crie o seguinte dataframe:
 # 
 # |produto|qtd_vendida|
@@ -342,6 +354,8 @@ df = df.append({'produto': 'tapete', 'preco': 250})
 # |cama| 51|
 # |abajur|12|
 # |porta|9|
+data = pd.DataFrame({"produto": ["cadeira", "mesa", "torneira", "cama", "abajur", "porta"], "qtd_vendida": [5,12,65,51,12,9]})
+
 # 
 # E faça um merge com o dataframe do exercício 1 para obter o dataframe a seguir:
 # 
@@ -354,6 +368,15 @@ df = df.append({'produto': 'tapete', 'preco': 250})
 # |abajur|90|12|
 # |porta|450|9|
 # 
+
+dfMerge = pd.merge(df, data, how='left', on='produto')
+print(dfMerge)
+
+
+# In[107]:
 # 8) Crie uma coluna no dataframe do exercício anterior que indique a receita total do produto, após isso, calcule a receita total de todos os produtos e crie uma nova coluna indicando qual a porcentagem de cada produto na receita total.
+colunaNova = dfMerge['preco'] * dfMerge['qtd_vendida']
+dfMerge['receita'] = colunaNova
+print(dfMerge)
 
 # %%
