@@ -173,20 +173,65 @@ else:
 
 # #LEMBRAR DE COLOCAR A TABELA NO BANCO QQ TECH
 # 
+
+# In[1]:
 # 1) Crie uma conexão com o banco QQ TECH.
-# 
-# 2) Com a conexão criada, selecione na tabela tabela_treinamento do banco:
-# 
-# a) As linhas que correspondem a pessoas de São Paulo
-# 
-# b) As linhas que correspondem a pessoas com idade entre 22 e 27 anos
-# 
-# c) As cidades das pessoas com o nome Maria
-# 
-# 3) Insira na tabela 2 novas linhas com dados ficticios
-
-# In[ ]:
+# Informações do banco
+host = "localhost"
+port = 5432
+db = "postgres"
+user = "postgres"
+passwd = "postgres"
 
 
+# In[2]:
+# #### CONECTAR 
+
+import psycopg2
+
+with psycopg2.connect(
+    host = host,
+    dbname = db,
+    port = port,
+    user = user,
+    password = passwd
+    ) as conn:
+    
+    print('Conexão estabelecida')
+
+    with conn.cursor() as cursor:
+    # 2) Com a conexão criada, selecione na tabela tabela_treinamento do banco:
+    # a) As linhas que correspondem a pessoas de São Paulo
+        cursor.execute('SELECT * FROM "testeQQ".treinamento WHERE cidade = %s', ('São Paulo',))
+        value = cursor.fetchall()
+        print("Pessoas de São paulo:")
+        for row in value:
+            print(row)
+    
+    # b) As linhas que correspondem a pessoas com idade entre 22 e 27 anos
+        cursor.execute('SELECT * FROM "testeQQ".treinamento WHERE idade BETWEEN %s AND %s', (22, 27))
+        value = cursor.fetchall()
+        print("\nPessoas com idade entre 22 e 27 anos:")
+        for row in value:
+            print(row)
+
+    # c) As cidades das pessoas com o nome Maria
+        cursor.execute('SELECT cidade FROM "testeQQ".treinamento WHERE nome = %s', ('Maria',))
+        value = cursor.fetchall()
+        print("\nCidade das pessoas com nome Maria:")
+        for row in value:
+            print(row)
 
 
+    # 3) Insira na tabela 2 novas linhas com dados ficticios
+        data = [
+            ('Maria eduarda', 27, 'Irecê'),
+            ('Rafaela', 10, 'Saubara'),
+            ('Maria', 29, 'Alagoinhas'),
+            ('Ricardo', 23, 'Salvador'),
+            ('Geovani', 9, 'Feira de santana')
+        ]
+        cursor.executemany('INSERT INTO "testeQQ".treinamento (nome, idade, cidade) VALUES (%s, %s, %s)', data)
+
+
+# %%
