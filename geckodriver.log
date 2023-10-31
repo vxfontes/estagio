@@ -1,0 +1,230 @@
+1698755078529	geckodriver	INFO	Listening on 127.0.0.1:55858
+1698755081597	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55859" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\980193\\AppData\\Local\\Temp\\rust_mozprofile4ZB35E"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698755081911	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698755082019	Marionette	INFO	Listening on port 55871
+WebDriver BiDi listening on ws://127.0.0.1:55859
+Read port: 55871
+1698755082182	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55859/devtools/browser/0eb4d150-5599-43f3-b7e8-925f60c9711c
+JavaScript warning: https://t5x4arrs1c.map.azionedge.net/asset.axd?id=XwoAAB-LCAAAAAAABACVlsty4jAQRf_Fa0oMzyFs8wlZzGIqCyE3toL1KKkNcaX492k7wQqMZTk7Cm7fI9HqK31kebb_-5HZbJ891x6Nmj8bjaBx_kfmBaCfF8YUFTDkBVNc8wIcOy_nL8JJiz6bZcfOQJPBJWeDYvbW6ky2_3V9vc5GYVLZuvLAFCCPMb5reutF0vprabSqqkEpfGILva5HLJMI60xeC2QeuBNlDHCv6u1XU-yPkpZ2gUoYBcyXxlpwI5wheQ9cJ4GiBHEyNbID9yegFddKcdeUwPM4drSoh2-ScCqicqkLMtI6znvU9YhtEnFw5uLbSsERCuMaBbqOcQbFPex3Enbkgv4NbCywCs5QRQ_gf8IesvsJxHFdwARGp-sRTz_ah_Q4ZRckC4OaDoHP0sKZ2o67d5LgnM6A2-hVUtNcSF-O7WBQHGjT46AzUJBLHu35gDSQJiVDKEdHorN5p862YzEJ-VAT2OmQuPlYJ0X0vN2Jgns6BcIqpzTqe3_S46_h4itApMyo4ADR5jzqAiM99VhKl1vusGG-c2eVGUvPmD4w0yHgG4-gKKcoiumWwbaj0c0NigMtnQfgnHG3lI9R7kThRk1nQZ-6yuS8SmZzpwr-6US4XVKgc1BcxgkPusBI50D7UMk5PVZO2nRXY_QqexQGSjoDvhpp6dGVfuQMigOtnfrXWSaQ1AjvOH_jZ_55Hklxpm-3q91qvdytF4vNbrd5Wm9W9IOgx-Rqu6EP2Z4SBa7_AME9n-tfCgAA, line 1808: unreachable code after return statement
+JavaScript error: https://static.demoup.com/lebes.com.br/stage2.min.js, line 1: ReferenceError: product is not defined
+1698755112000	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:66750
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1698757343583	Marionette	INFO	Stopped listening on port 55871
+Dynamically enable window occlusion 1
+
+Read port: 56254
+1698756986071	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56245/devtools/browser/703a9808-5792-4181-bba5-10e947a03424
+JavaScript warning: https://t5x4arrs1c.map.azionedge.net/asset.axd?id=XwoAAB-LCAAAAAAABACVlsty4jAQRf_Fa0oMzyFs8wlZzGIqCyE3toL1KKkNcaX492k7wQqMZTk7Cm7fI9HqK31kebb_-5HZbJ891x6Nmj8bjaBx_kfmBaCfF8YUFTDkBVNc8wIcOy_nL8JJiz6bZcfOQJPBJWeDYvbW6ky2_3V9vc5GYVLZuvLAFCCPMb5reutF0vprabSqqkEpfGILva5HLJMI60xeC2QeuBNlDHCv6u1XU-yPkpZ2gUoYBcyXxlpwI5wheQ9cJ4GiBHEyNbID9yegFddKcdeUwPM4drSoh2-ScCqicqkLMtI6znvU9YhtEnFw5uLbSsERCuMaBbqOcQbFPex3Enbkgv4NbCywCs5QRQ_gf8IesvsJxHFdwARGp-sRTz_ah_Q4ZRckC4OaDoHP0sKZ2o67d5LgnM6A2-hVUtNcSF-O7WBQHGjT46AzUJBLHu35gDSQJiVDKEdHorN5p862YzEJ-VAT2OmQuPlYJ0X0vN2Jgns6BcIqpzTqe3_S46_h4itApMyo4ADR5jzqAiM99VhKl1vusGG-c2eVGUvPmD4w0yHgG4-gKKcoiumWwbaj0c0NigMtnQfgnHG3lI9R7kThRk1nQZ-6yuS8SmZzpwr-6US4XVKgc1BcxgkPusBI50D7UMk5PVZO2nRXY_QqexQGSjoDvhpp6dGVfuQMigOtnfrXWSaQ1AjvOH_jZ_55Hklxpm-3q91qvdytF4vNbrd5Wm9W9IOgx-Rqu6EP2Z4SBa7_AME9n-tfCgAA, line 1808: unreachable code after return statement
+JavaScript error: https://static.demoup.com/lebes.com.br/stage2.min.js, line 1: ReferenceError: product is not defined
+1698757017244	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:66750
+
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-1E2THFF6BR, line 161: Script terminated by timeout at:
+l@https://www.googletagmanager.com/gtag/js?id=G-1E2THFF6BR:161:17
+fA@https://www.googletagmanager.com/gtag/js?id=G-1E2THFF6BR:475:134
+gA/<@https://www.googletagmanager.com/gtag/js?id=G-1E2THFF6BR:475:111
+
+1698757058916	Marionette	INFO	Stopped listening on port 56254
+Dynamically enable window occlusion 1
+383
+WebDriver BiDi listening on ws://127.0.0.1:56375
+Read port: 56383
+1698757030436	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56375/devtools/browser/d64c7730-3311-404a-ba76-92d1e3d6f97c
+JavaScript warning: https://t5x4arrs1c.map.azionedge.net/asset.axd?id=XwoAAB-LCAAAAAAABACVlsty4jAQRf_Fa0oMzyFs8wlZzGIqCyE3toL1KKkNcaX492k7wQqMZTk7Cm7fI9HqK31kebb_-5HZbJ891x6Nmj8bjaBx_kfmBaCfF8YUFTDkBVNc8wIcOy_nL8JJiz6bZcfOQJPBJWeDYvbW6ky2_3V9vc5GYVLZuvLAFCCPMb5reutF0vprabSqqkEpfGILva5HLJMI60xeC2QeuBNlDHCv6u1XU-yPkpZ2gUoYBcyXxlpwI5wheQ9cJ4GiBHEyNbID9yegFddKcdeUwPM4drSoh2-ScCqicqkLMtI6znvU9YhtEnFw5uLbSsERCuMaBbqOcQbFPex3Enbkgv4NbCywCs5QRQ_gf8IesvsJxHFdwARGp-sRTz_ah_Q4ZRckC4OaDoHP0sKZ2o67d5LgnM6A2-hVUtNcSF-O7WBQHGjT46AzUJBLHu35gDSQJiVDKEdHorN5p862YzEJ-VAT2OmQuPlYJ0X0vN2Jgns6BcIqpzTqe3_S46_h4itApMyo4ADR5jzqAiM99VhKl1vusGG-c2eVGUvPmD4w0yHgG4-gKKcoiumWwbaj0c0NigMtnQfgnHG3lI9R7kThRk1nQZ-6yuS8SmZzpwr-6US4XVKgc1BcxgkPusBI50D7UMk5PVZO2nRXY_QqexQGSjoDvhpp6dGVfuQMigOtnfrXWSaQ1AjvOH_jZ_55Hklxpm-3q91qvdytF4vNbrd5Wm9W9IOgx-Rqu6EP2Z4SBa7_AME9n-tfCgAA, line 1808: unreachable code after return statement
+1698757038291	Marionette	INFO	Stopped listening on port 56383
+JavaScript warning: https://t5x4arrs1c.map.azionedge.net/assets/shjs.js?t=638342841158859453, line 1: Script terminated by timeout at:
+c@https://t5x4arrs1c.map.azionedge.net/assets/shjs.js?t=638342841158859453:1:1895
+checkIfDivLoaded@https://t5x4arrs1c.map.azionedge.net/asset.axd?id=cQEAAB-LCAAAAAAABABF0E1PwzAMgOH_knNJ6fpB6ZUL4soR7RCSbE3XxMV2NtDU_060qdkt8vvIlnIVRgxfV7GIQehIDL7UENgGLnm03lL5rtC8Adry41MU4nDTIWmanT7JidIQxPC8FvfxqIKZ7bdCkt6F3KutTz_R4p_UEAMbuDzEbhNaIbowwhNaih4yqDdw20Cc0PEA6DNoNkAa3cKUQ_tYzfYI6FRO3ZYuRi4IJmqWsyOWzi9xJpvhy7pf94XQnCzbXy4ndVb3Qwmc07Sr-7rZ9U1VtX3fvjZtnYJO31t3bXqIgTHa9R81zFvlcQEAAA%3d%3d:3618:8
+intervalo<@https://t5x4arrs1c.map.azionedge.net/asset.axd?id=cQEAAB-LCAAAAAAABABF0E1PwzAMgOH_knNJ6fpB6ZUL4soR7RCSbE3XxMV2NtDU_060qdkt8vvIlnIVRgxfV7GIQehIDL7UENgGLnm03lL5rtC8Adry41MU4nDTIWmanT7JidIQxPC8FvfxqIKZ7bdCkt6F3KutTz_R4p_UEAMbuDzEbhNaIbowwhNaih4yqDdw20Cc0PEA6DNoNkAa3cKUQ_tYzfYI6FRO3ZYuRi4IJmqWsyOWzi9xJpvhy7pf94XQnCzbXy4ndVb3Qwmc07Sr-7rZ9U1VtX3fvjZtnYJO31t3bXqIgTHa9R81zFvlcQEAAA%3d%3d:3610:4
+
+Dynamically enable window occlusion 1
+1698757045502	geckodriver	INFO	Listening on 127.0.0.1:56481
+1698757048563	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56482" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\980193\\AppData\\Local\\Temp\\rust_mozprofileGh63Hp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698757048844	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698757048947	Marionette	INFO	Listening on port 56491
+WebDriver BiDi listening on ws://127.0.0.1:56482
+Read port: 56491
+1698757049116	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56482/devtools/browser/8657cf52-4084-4d39-a0ec-11fe67a4f36d
+JavaScript warning: https://t5x4arrs1c.map.azionedge.net/asset.axd?id=XwoAAB-LCAAAAAAABACVlsty4jAQRf_Fa0oMzyFs8wlZzGIqCyE3toL1KKkNcaX492k7wQqMZTk7Cm7fI9HqK31kebb_-5HZbJ891x6Nmj8bjaBx_kfmBaCfF8YUFTDkBVNc8wIcOy_nL8JJiz6bZcfOQJPBJWeDYvbW6ky2_3V9vc5GYVLZuvLAFCCPMb5reutF0vprabSqqkEpfGILva5HLJMI60xeC2QeuBNlDHCv6u1XU-yPkpZ2gUoYBcyXxlpwI5wheQ9cJ4GiBHEyNbID9yegFddKcdeUwPM4drSoh2-ScCqicqkLMtI6znvU9YhtEnFw5uLbSsERCuMaBbqOcQbFPex3Enbkgv4NbCywCs5QRQ_gf8IesvsJxHFdwARGp-sRTz_ah_Q4ZRckC4OaDoHP0sKZ2o67d5LgnM6A2-hVUtNcSF-O7WBQHGjT46AzUJBLHu35gDSQJiVDKEdHorN5p862YzEJ-VAT2OmQuPlYJ0X0vN2Jgns6BcIqpzTqe3_S46_h4itApMyo4ADR5jzqAiM99VhKl1vusGG-c2eVGUvPmD4w0yHgG4-gKKcoiumWwbaj0c0NigMtnQfgnHG3lI9R7kThRk1nQZ-6yuS8SmZzpwr-6US4XVKgc1BcxgkPusBI50D7UMk5PVZO2nRXY_QqexQGSjoDvhpp6dGVfuQMigOtnfrXWSaQ1AjvOH_jZ_55Hklxpm-3q91qvdytF4vNbrd5Wm9W9IOgx-Rqu6EP2Z4SBa7_AME9n-tfCgAA, line 1808: unreachable code after return statement
+JavaScript error: https://static.demoup.com/lebes.com.br/stage2.min.js, line 1: ReferenceError: product is not defined
+1698757078969	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:66750
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1698757327785	Marionette	INFO	Stopped listening on port 56491
+Dynamically enable window occlusion 1
+
+Read port: 56638
+1698757112933	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56630/devtools/browser/aaa534d0-9f0b-43f5-be3e-d5112c252de5
+JavaScript warning: https://t5x4arrs1c.map.azionedge.net/asset.axd?id=XwoAAB-LCAAAAAAABACVlsty4jAQRf_Fa0oMzyFs8wlZzGIqCyE3toL1KKkNcaX492k7wQqMZTk7Cm7fI9HqK31kebb_-5HZbJ891x6Nmj8bjaBx_kfmBaCfF8YUFTDkBVNc8wIcOy_nL8JJiz6bZcfOQJPBJWeDYvbW6ky2_3V9vc5GYVLZuvLAFCCPMb5reutF0vprabSqqkEpfGILva5HLJMI60xeC2QeuBNlDHCv6u1XU-yPkpZ2gUoYBcyXxlpwI5wheQ9cJ4GiBHEyNbID9yegFddKcdeUwPM4drSoh2-ScCqicqkLMtI6znvU9YhtEnFw5uLbSsERCuMaBbqOcQbFPex3Enbkgv4NbCywCs5QRQ_gf8IesvsJxHFdwARGp-sRTz_ah_Q4ZRckC4OaDoHP0sKZ2o67d5LgnM6A2-hVUtNcSF-O7WBQHGjT46AzUJBLHu35gDSQJiVDKEdHorN5p862YzEJ-VAT2OmQuPlYJ0X0vN2Jgns6BcIqpzTqe3_S46_h4itApMyo4ADR5jzqAiM99VhKl1vusGG-c2eVGUvPmD4w0yHgG4-gKKcoiumWwbaj0c0NigMtnQfgnHG3lI9R7kThRk1nQZ-6yuS8SmZzpwr-6US4XVKgc1BcxgkPusBI50D7UMk5PVZO2nRXY_QqexQGSjoDvhpp6dGVfuQMigOtnfrXWSaQ1AjvOH_jZ_55Hklxpm-3q91qvdytF4vNbrd5Wm9W9IOgx-Rqu6EP2Z4SBa7_AME9n-tfCgAA, line 1808: unreachable code after return statement
+JavaScript error: https://static.demoup.com/lebes.com.br/stage2.min.js, line 1: ReferenceError: product is not defined
+1698757143222	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbeve1698757167964	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56771" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\980193\\AppData\\Local\\Temp\\rust_mozprofilehFHOuB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698757168279	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698757168385	Marionette	INFO	Listening on port 56781
+WebDriver BiDi listening on ws://127.0.0.1:56771
+Read port: 56781
+1698757168534	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56771/devtools/browser/38abe124-01a4-4f4d-b259-011d4f0fca27
+JavaScript warning: https://t5x4arrs1c.map.azionedge.net/asset.axd?id=XwoAAB-LCAAAAAAABACVlsty4jAQRf_Fa0oMzyFs8wlZzGIqCyE3toL1KKkNcaX492k7wQqMZTk7Cm7fI9HqK31kebb_-5HZbJ891x6Nmj8bjaBx_kfmBaCfF8YUFTDkBVNc8wIcOy_nL8JJiz6bZcfOQJPBJWeDYvbW6ky2_3V9vc5GYVLZuvLAFCCPMb5reutF0vprabSqqkEpfGILva5HLJMI60xeC2QeuBNlDHCv6u1XU-yPkpZ2gUoYBcyXxlpwI5wheQ9cJ4GiBHEyNbID9yegFddKcdeUwPM4drSoh2-ScCqicqkLMtI6znvU9YhtEnFw5uLbSsERCuMaBbqOcQbFPex3Enbkgv4NbCywCs5QRQ_gf8IesvsJxHFdwARGp-sRTz_ah_Q4ZRckC4OaDoHP0sKZ2o67d5LgnM6A2-hVUtNcSF-O7WBQHGjT46AzUJBLHu35gDSQJiVDKEdHorN5p862YzEJ-VAT2OmQuPlYJ0X0vN2Jgns6BcIqpzTqe3_S46_h4itApMyo4ADR5jzqAiM99VhKl1vusGG-c2eVGUvPmD4w0yHgG4-gKKcoiumWwbaj0c0NigMtnQfgnHG3lI9R7kThRk1nQZ-6yuS8SmZzpwr-6US4XVKgc1BcxgkPusBI50D7UMk5PVZO2nRXY_QqexQGSjoDvhpp6dGVfuQMigOtnfrXWSaQ1AjvOH_jZ_55Hklxpm-3q91qvdytF4vNbrd5Wm9W9IOgx-Rqu6EP2Z4SBa7_AME9n-tfCgAA, line 1808: unreachable code after return statement
+JavaScript error: https://static.demoup.com/lebes.com.br/stage2.min.js, line 1: ReferenceError: product is not defined
+1698757199489	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:66750
+
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-1E2THFF6BR, line 161: Script terminated by timeout at:
+l@https://www.googletagmanager.com/gtag/js?id=G-1E2THFF6BR:161:17
+fA@https://www.googletagmanager.com/gtag/js?id=G-1E2THFF6BR:475:134
+gA/<@https://www.googletagmanager.com/gtag/js?id=G-1E2THFF6BR:475:111
+
+1698757332988	Marionette	INFO	Stopped listening on port 56781
+Dynamically enable window occlusion 1
+1698758266058	geckodriver	INFO	Listening on 127.0.0.1:56966
+1698758269125	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56967" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\980193\\AppData\\Local\\Temp\\rust_mozprofileqZibQ5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698758269404	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698758269504	Marionette	INFO	Listening on port 56978
+WebDriver BiDi listening on ws://127.0.0.1:56967
+Read port: 56978
+1698758269670	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56967/devtools/browser/735b52b1-bdb9-4353-b710-2c9095a1c82b
+JavaScript warning: https://t5x4arrs1c.map.azionedge.net/asset.axd?id=XwoAAB-LCAAAAAAABACVlsty4jAQRf_Fa0oMzyFs8wlZzGIqCyE3toL1KKkNcaX492k7wQqMZTk7Cm7fI9HqK31kebb_-5HZbJ891x6Nmj8bjaBx_kfmBaCfF8YUFTDkBVNc8wIcOy_nL8JJiz6bZcfOQJPBJWeDYvbW6ky2_3V9vc5GYVLZuvLAFCCPMb5reutF0vprabSqqkEpfGILva5HLJMI60xeC2QeuBNlDHCv6u1XU-yPkpZ2gUoYBcyXxlpwI5wheQ9cJ4GiBHEyNbID9yegFddKcdeUwPM4drSoh2-ScCqicqkLMtI6znvU9YhtEnFw5uLbSsERCuMaBbqOcQbFPex3Enbkgv4NbCywCs5QRQ_gf8IesvsJxHFdwARGp-sRTz_ah_Q4ZRckC4OaDoHP0sKZ2o67d5LgnM6A2-hVUtNcSF-O7WBQHGjT46AzUJBLHu35gDSQJiVDKEdHorN5p862YzEJ-VAT2OmQuPlYJ0X0vN2Jgns6BcIqpzTqe3_S46_h4itApMyo4ADR5jzqAiM99VhKl1vusGG-c2eVGUvPmD4w0yHgG4-gKKcoiumWwbaj0c0NigMtnQfgnHG3lI9R7kThRk1nQZ-6yuS8SmZzpwr-6US4XVKgc1BcxgkPusBI50D7UMk5PVZO2nRXY_QqexQGSjoDvhpp6dGVfuQMigOtnfrXWSaQ1AjvOH_jZ_55Hklxpm-3q91qvdytF4vNbrd5Wm9W9IOgx-Rqu6EP2Z4SBa7_AME9n-tfCgAA, line 1808: unreachable code after return statement
+JavaScript error: https://static.demoup.com/lebes.com.br/stage2.min.js, line 1: ReferenceError: product is not defined
+1698758300622	addons.xpi	ERROR	System addon update list erro1698758301749	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exJavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:66750
+
+1698758749780	Marionette	INFO	Stopped listening on port 56978
+Dynamically enable window occlusion 1
+DEVTOOLS=1 in the environment
+1698758302048	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698758302160	Marionette	INFO	Listening on port 57108
+WebDriver BiDi listening on ws://127.0.0.1:57096
+Read port: 57108
+1698758302317	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57096/devtools/browser/ec0998c4-12c3-42e8-a0fc-569435735808
+JavaScript warning: https://t5x4arrs1c.map.azionedge.net/asset.axd?id=XwoAAB-LCAAAAAAABACVlsty4jAQRf_Fa0oMzyFs8wlZzGIqCyE3toL1KKkNcaX492k7wQqMZTk7Cm7fI9HqK31kebb_-5HZbJ891x6Nmj8bjaBx_kfmBaCfF8YUFTDkBVNc8wIcOy_nL8JJiz6bZcfOQJPBJWeDYvbW6ky2_3V9vc5GYVLZuvLAFCCPMb5reutF0vprabSqqkEpfGILva5HLJMI60xeC2QeuBNlDHCv6u1XU-yPkpZ2gUoYBcyXxlpwI5wheQ9cJ4GiBHEyNbID9yegFddKcdeUwPM4drSoh2-ScCqicqkLMtI6znvU9YhtEnFw5uLbSsERCuMaBbqOcQbFPex3Enbkgv4NbCywCs5QRQ_gf8IesvsJxHFdwARGp-sRTz_ah_Q4ZRckC4OaDoHP0sKZ2o67d5LgnM6A2-hVUtNcSF-O7WBQHGjT46AzUJBLHu35gDSQJiVDKEdHorN5p862YzEJ-VAT2OmQuPlYJ0X0vN2Jgns6BcIqpzTqe3_S46_h4itApMyo4ADR5jzqAiM99VhKl1vusGG-c2eVGUvPmD4w0yHgG4-gKKcoiumWwbaj0c0NigMtnQfgnHG3lI9R7kThRk1nQZ-6yuS8SmZzpwr-6US4XVKgc1BcxgkPusBI50D7UMk5PVZO2nRXY_QqexQGSjoDvhpp6dGVfuQMigOtnfrXWSaQ1AjvOH_jZ_55Hklxpm-3q91qvdytF4vNbrd5Wm9W9IOgx-Rqu6EP2Z4SBa7_AME9n-tfCgAA, line 1808: unreachable code after return statement
+JavaScript error: https://static.demoup.com/lebes.com.br/stage2.min.js, line 1: ReferenceError: product is not defined
+1698758334631	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:66750
+
+1698758748379	Marionette	INFO	Stopped listening on port 57108
+Dynamically enable window occlusion 1
+"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698758627957	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698758628063	Marionette	INFO	Listening on port 57273
+WebDriver BiDi listening on ws://127.0.0.1:57264
+Read port: 57273
+1698758628229	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57264/devtools/browser/098f7862-a29c-4755-bb30-452a1ef787f1
+JavaScript warning: https://t5x4arrs1c.map.azionedge.net/asset.axd?id=XwoAAB-LCAAAAAAABACVlsty4jAQRf_Fa0oMzyFs8wlZzGIqCyE3toL1KKkNcaX492k7wQqMZTk7Cm7fI9HqK31kebb_-5HZbJ891x6Nmj8bjaBx_kfmBaCfF8YUFTDkBVNc8wIcOy_nL8JJiz6bZcfOQJPBJWeDYvbW6ky2_3V9vc5GYVLZuvLAFCCPMb5reutF0vprabSqqkEpfGILva5HLJMI60xeC2QeuBNlDHCv6u1XU-yPkpZ2gUoYBcyXxlpwI5wheQ9cJ4GiBHEyNbID9yegFddKcdeUwPM4drSoh2-ScCqicqkLMtI6znvU9YhtEnFw5uLbSsERCuMaBbqOcQbFPex3Enbkgv4NbCywCs5QRQ_gf8IesvsJxHFdwARGp-sRTz_ah_Q4ZRckC4OaDoHP0sKZ2o67d5LgnM6A2-hVUtNcSF-O7WBQHGjT46AzUJBLHu35gDSQJiVDKEdHorN5p862YzEJ-VAT2OmQuPlYJ0X0vN2Jgns6BcIqpzTqe3_S46_h4itApMyo4ADR5jzqAiM99VhKl1vusGG-c2eVGUvPmD4w0yHgG4-gKKcoiumWwbaj0c0NigMtnQfgnHG3lI9R7kThRk1nQZ-6yuS8SmZzpwr-6US4XVKgc1BcxgkPusBI50D7UMk5PVZO2nRXY_QqexQGSjoDvhpp6dGVfuQMigOtnfrXWSaQ1AjvOH_jZ_55Hklxpm-3q91qvdytF4vNbrd5Wm9W9IOgx-Rqu6EP2Z4SBa7_AME9n-tfCgAA, line 1808: unreachable code after return statement
+JavaScript error: https://static.demoup.com/lebes.com.br/stage2.min.js, line 1: ReferenceError: product is not defined
+1698758660516	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:66750
+
+1698758744774	Marionette	INFO	Stopped listening on port 57273
+Dynamically enable window occlusion 1
+1698758754011	geckodriver	INFO	Listening on 127.0.0.1:57402
+1698758757081	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57403" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\980193\\AppData\\Local\\Temp\\rust_mozprofileGbWQLq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698758757363	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698758757465	Marionette	INFO	Listening on port 57412
+WebDriver BiDi listening on ws://127.0.0.1:57403
+Read port: 57412
+1698758757633	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57403/devtools/browser/ba7787c0-a537-4a2a-8ed1-2482e7021c2a
+JavaScript warning: https://t5x4arrs1c.map.azionedge.net/asset.axd?id=XwoAAB-LCAAAAAAABACVlsty4jAQRf_Fa0oMzyFs8wlZzGIqCyE3toL1KKkNcaX492k7wQqMZTk7Cm7fI9HqK31kebb_-5HZbJ891x6Nmj8bjaBx_kfmBaCfF8YUFTDkBVNc8wIcOy_nL8JJiz6bZcfOQJPBJWeDYvbW6ky2_3V9vc5GYVLZuvLAFCCPMb5reutF0vprabSqqkEpfGILva5HLJMI60xeC2QeuBNlDHCv6u1XU-yPkpZ2gUoYBcyXxlpwI5wheQ9cJ4GiBHEyNbID9yegFddKcdeUwPM4drSoh2-ScCqicqkLMtI6znvU9YhtEnFw5uLbSsERCuMaBbqOcQbFPex3Enbkgv4NbCywCs5QRQ_gf8IesvsJxHFdwARGp-sRTz_ah_Q4ZRckC4OaDoHP0sKZ2o67d5LgnM6A2-hVUtNcSF-O7WBQHGjT46AzUJBLHu35gDSQJiVDKEdHorN5p862YzEJ-VAT2OmQuPlYJ0X0vN2Jgns6BcIqpzTqe3_S46_h4itApMyo4ADR5jzqAiM99VhKl1vusGG-c2eVGUvPmD4w0yHgG4-gKKcoiumWwbaj0c0NigMtnQfgnHG3lI9R7kThRk1nQZ-6yuS8SmZzpwr-6US4XVKgc1BcxgkPusBI50D7UMk5PVZO2nRXY_QqexQGSjoDvhpp6dGVfuQMigOtnfrXWSaQ1AjvOH_jZ_55Hklxpm-3q91qvdytF4vNbrd5Wm9W9IOgx-Rqu6EP2Z4SBa7_AME9n-tfCgAA, line 1808: unreachable code after return statement
+JavaScript error: https://static.demoup.com/lebes.com.br/stage2.min.js, line 1: ReferenceError: product is not defined
+1698758788686	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://t5x4arrs1c.map.azionedge.net/asset.axd?id=YQoAAB-LCAAAAAAABACVlk1y4jAQhe_iNSWS8BNgmyPMYhapLITc2EosySW1Ia4Ud0_bGaSBWJbZufDr90lW6zVfWZ7tXr-yOttlL41Do-YvRiNonP-VeQHo5oUxRQUMecEU17wAy45P8z_CyhpdNssOvYEmg1POBsXsvdOZbPdwfjvPRmFS1U3lgClAHmP8r_HWj0nrf0ujVVUtSuESW_A6j3hKImpr8kYgc8CtKGOAa5W3X0yxP0ha2gkqYRQwV5q6BjvCGZJ74DIJFCWID9Mg23P3AbTiRilu2xJ4HseOFnn4KgmnIiqXuiAjreO8W51HrJOIvTUn11UKjlAY2yrQTYwzKPaw5yTswAV9DWxrYBUcoYo24C-hh2zugViuC5jA6HUesb1rH9LhlF2QLFzUdAj8lBbWNPW4ey8JzukM8GdYWJkzZyzG-2pIG1jTw6CSmu6gdOXY1xoUB9qkbAgGCnLJo_01IA2kdChclaMl0dF8Uhd1V3AS8qYmsNOZcPGprRTR3r4SBfc74qA_8bHj-q0MnHQSXFVPQ3j3dARoOLkKsOvWCvYQbYNbXWCkMwBLafOaW2yZ691ZZcZmQkwfZms6FVzrEBSlLw0Ymp3Y9U50c4PiQEsnBVhr7GV2xShXouCezgZ_uMrkvEq2QK8K_uk0uIxe0DkoLuOEG11gdDnwNssEkhDhE-fv_Mh_zo4UR_p1vdgslovl9mG7XK0268fnDb0Q9HdysV7RQ7ajew7nb4LUwxFhCgAA, line 1808: unreachable code after return statement
+JavaScript error: https://static.demoup.com/lebes.com.br/stage2.min.js, line 1: ReferenceError: product is not defined
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1698758942444	Marionette	INFO	Stopped listening on port 57412
+Dynamically enable window occlusion 1
+1698758943049	geckodriver	INFO	Listening on 127.0.0.1:57582
+1698758946112	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57583" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\980193\\AppData\\Local\\Temp\\rust_mozprofile16LdIa"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698758946394	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698758946493	Marionette	INFO	Listening on port 57591
+WebDriver BiDi listening on ws://127.0.0.1:57583
+Read port: 57591
+1698758946654	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57583/devtools/browser/1efb7668-e6a5-495e-be29-bde425e34500
+JavaScript warning: https://t5x4arrs1c.map.azionedge.net/asset.axd?id=XwoAAB-LCAAAAAAABACVlsty4jAQRf_Fa0oMzyFs8wlZzGIqCyE3toL1KKkNcaX492k7wQqMZTk7Cm7fI9HqK31kebb_-5HZbJ891x6Nmj8bjaBx_kfmBaCfF8YUFTDkBVNc8wIcOy_nL8JJiz6bZcfOQJPBJWeDYvbW6ky2_3V9vc5GYVLZuvLAFCCPMb5reutF0vprabSqqkEpfGILva5HLJMI60xeC2QeuBNlDHCv6u1XU-yPkpZ2gUoYBcyXxlpwI5wheQ9cJ4GiBHEyNbID9yegFddKcdeUwPM4drSoh2-ScCqicqkLMtI6znvU9YhtEnFw5uLbSsERCuMaBbqOcQbFPex3Enbkgv4NbCywCs5QRQ_gf8IesvsJxHFdwARGp-sRTz_ah_Q4ZRckC4OaDoHP0sKZ2o67d5LgnM6A2-hVUtNcSF-O7WBQHGjT46AzUJBLHu35gDSQJiVDKEdHorN5p862YzEJ-VAT2OmQuPlYJ0X0vN2Jgns6BcIqpzTqe3_S46_h4itApMyo4ADR5jzqAiM99VhKl1vusGG-c2eVGUvPmD4w0yHgG4-gKKcoiumWwbaj0c0NigMtnQfgnHG3lI9R7kThRk1nQZ-6yuS8SmZzpwr-6US4XVKgc1BcxgkPusBI50D7UMk5PVZO2nRXY_QqexQGSjoDvhpp6dGVfuQMigOtnfrXWSaQ1AjvOH_jZ_55Hklxpm-3q91qvdytF4vNbrd5Wm9W9IOgx-Rqu6EP2Z4SBa7_AME9n-tfCgAA, line 1808: unreachable code after return statement
+JavaScript error: https://static.demoup.com/lebes.com.br/stage2.min.js, line 1: ReferenceError: product is not defined
+1698758978951	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1698759231279	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/mSNSQAl__hw8z5PwJ1hA32amL2zkBniEArBt9BN1XWc.js line 2 > eval line 6628 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-S812YQPLT2, line 500: Script terminated by timeout at:
+aa.qh@https://www.googletagmanager.com/gtag/js?id=G-S812YQPLT2:500:89
+get@https://www.googletagmanager.com/gtag/js?id=G-S812YQPLT2:498:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-S812YQPLT2:498:87
+aa.Ek/c/<@https://www.googletagmanager.com/gtag/js?id=G-S812YQPLT2:498:412
+
+1698759258243	geckodriver	INFO	Listening on 127.0.0.1:57795
+1698759261300	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57796" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\980193\\AppData\\Local\\Temp\\rust_mozprofileZ4ROgg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698759261575	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698759261675	Marionette	INFO	Listening on port 57804
+WebDriver BiDi listening on ws://127.0.0.1:57796
+Read port: 57804
+1698759261835	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57796/devtools/browser/22cb44c6-b1c7-4e88-828b-01c1ac822f7e
+JavaScript warning: https://t5x4arrs1c.map.azionedge.net/asset.axd?id=XwoAAB-LCAAAAAAABACVlsty4jAQRf_Fa0oMzyFs8wlZzGIqCyE3toL1KKkNcaX492k7wQqMZTk7Cm7fI9HqK31kebb_-5HZbJ891x6Nmj8bjaBx_kfmBaCfF8YUFTDkBVNc8wIcOy_nL8JJiz6bZcfOQJPBJWeDYvbW6ky2_3V9vc5GYVLZuvLAFCCPMb5reutF0vprabSqqkEpfGILva5HLJMI60xeC2QeuBNlDHCv6u1XU-yPkpZ2gUoYBcyXxlpwI5wheQ9cJ4GiBHEyNbID9yegFddKcdeUwPM4drSoh2-ScCqicqkLMtI6znvU9YhtEnFw5uLbSsERCuMaBbqOcQbFPex3Enbkgv4NbCywCs5QRQ_gf8IesvsJxHFdwARGp-sRTz_ah_Q4ZRckC4OaDoHP0sKZ2o67d5LgnM6A2-hVUtNcSF-O7WBQHGjT46AzUJBLHu35gDSQJiVDKEdHorN5p862YzEJ-VAT2OmQuPlYJ0X0vN2Jgns6BcIqpzTqe3_S46_h4itApMyo4ADR5jzqAiM99VhKl1vusGG-c2eVGUvPmD4w0yHgG4-gKKcoiumWwbaj0c0NigMtnQfgnHG3lI9R7kThRk1nQZ-6yuS8SmZzpwr-6US4XVKgc1BcxgkPusBI50D7UMk5PVZO2nRXY_QqexQGSjoDvhpp6dGVfuQMigOtnfrXWSaQ1AjvOH_jZ_55Hklxpm-3q91qvdytF4vNbrd5Wm9W9IOgx-Rqu6EP2Z4SBa7_AME9n-tfCgAA, line 1808: unreachable code after return statement
+JavaScript error: https://static.demoup.com/lebes.com.br/stage2.min.js, line 1: ReferenceError: product is not defined
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:66750
+
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-1E2THFF6BR, line 161: Script terminated by timeout at:
+l@https://www.googletagmanager.com/gtag/js?id=G-1E2THFF6BR:161:17
+fA@https://www.googletagmanager.com/gtag/js?id=G-1E2THFF6BR:475:134
+gA/<@https://www.googletagmanager.com/gtag/js?id=G-1E2THFF6BR:475:111
+
+1698759280651	Marionette	INFO	Stopped listening on port 57804
+Dynamically enable window occlusion 1
